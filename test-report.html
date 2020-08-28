@@ -1,0 +1,201 @@
+<html><head><meta charset="utf-8"/><title>Sprint0-Automation Test Report</title><style type="text/css">html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+body {
+  padding: 2rem 1rem;
+  font-size: 0.85rem;
+}
+#jesthtml-content {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+#title {
+  margin: 0;
+  flex-grow: 1;
+}
+#logo {
+  height: 4rem;
+}
+#timestamp {
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+/** SUMMARY */
+#summary {
+  color: #333;
+  margin: 2rem 0;
+  display: flex;
+  font-family: monospace;
+  font-size: 1rem;
+}
+#summary > div {
+  margin-right: 2rem;
+  background: #eee;
+  padding: 1rem;
+  min-width: 15rem;
+}
+#summary > div:last-child {
+  margin-right: 0;
+}
+@media only screen and (max-width: 720px) {
+  #summary {
+    flex-direction: column;
+  }
+  #summary > div {
+    margin-right: 0;
+    margin-top: 2rem;
+  }
+  #summary > div:first-child {
+    margin-top: 0;
+  }
+}
+
+.summary-total {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.summary-passed {
+  color: #4f8a10;
+  border-left: 0.4rem solid #4f8a10;
+  padding-left: 0.5rem;
+}
+.summary-failed {
+  color: #d8000c;
+  border-left: 0.4rem solid #d8000c;
+  padding-left: 0.5rem;
+}
+.summary-pending {
+  color: #9f6000;
+  border-left: 0.4rem solid #9f6000;
+  padding-left: 0.5rem;
+}
+.summary-empty {
+  color: #999;
+  border-left: 0.4rem solid #999;
+}
+
+.test-result {
+  padding: 1rem;
+  margin-bottom: 0.25rem;
+}
+.test-result:last-child {
+  border: 0;
+}
+.test-result.passed {
+  background-color: #dff2bf;
+  color: #4f8a10;
+}
+.test-result.failed {
+  background-color: #ffbaba;
+  color: #d8000c;
+}
+.test-result.pending {
+  background-color: #ffdf61;
+  color: #9f6000;
+}
+
+.test-info {
+  display: flex;
+  justify-content: space-between;
+}
+.test-suitename {
+  width: 20%;
+  text-align: left;
+  font-weight: bold;
+  word-break: break-word;
+}
+.test-title {
+  width: 40%;
+  text-align: left;
+  font-style: italic;
+}
+.test-status {
+  width: 20%;
+  text-align: right;
+}
+.test-duration {
+  width: 10%;
+  text-align: right;
+  font-size: 0.75rem;
+}
+
+.failureMessages {
+  padding: 0 1rem;
+  margin-top: 1rem;
+  border-top: 1px dashed #d8000c;
+}
+.failureMsg {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.suite-container {
+  margin-bottom: 2rem;
+}
+.suite-info {
+  padding: 1rem;
+  background-color: #eee;
+  color: #777;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+.suite-info .suite-path {
+  word-break: break-all;
+  flex-grow: 1;
+  font-family: monospace;
+  font-size: 1rem;
+}
+.suite-info .suite-time {
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.3rem;
+  font-size: 0.75rem;
+}
+.suite-info .suite-time.warn {
+  background-color: #d8000c;
+  color: #fff;
+}
+
+/* CONSOLE LOGS */
+.suite-consolelog {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #efefef;
+}
+.suite-consolelog-header {
+  font-weight: bold;
+}
+.suite-consolelog-item {
+  padding: 0.5rem;
+}
+.suite-consolelog-item pre {
+  margin: 0.5rem 0;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+.suite-consolelog-item-origin {
+  color: #777;
+  font-weight: bold;
+}
+.suite-consolelog-item-message {
+  color: #000;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+</style></head><body><div id="jesthtml-content"><header><h1 id="title">Sprint0-Automation Test Report</h1></header><div id="metadata-container"><div id="timestamp">Started: 2020-08-28 22:05:27</div><div id="summary"><div id="suite-summary"><div class="summary-total">Suites (4)</div><div class="summary-passed">4 passed</div><div class="summary-failed summary-empty">0 failed</div><div class="summary-pending summary-empty">0 pending</div></div><div id="test-summary"><div class="summary-total">Tests (37)</div><div class="summary-passed">37 passed</div><div class="summary-failed summary-empty">0 failed</div><div class="summary-pending summary-empty">0 pending</div></div></div></div><div id="suite-1" class="suite-container"><div class="suite-info"><div class="suite-path">/home/kaviarasu/kaviarasu/projects/hobsons/Sprint0/File-validation/sprint0-file-automation_v1/__tests__/unit/user-file-validation_spec.js</div><div class="suite-time">0.446s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the family_name is displayed with "lname_1234" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.006s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the middle_name is displayed with "mname_1234" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the given_name is displayed with "fname_1234" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.002s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the email is displayed with "success@simulator.amazonses.com" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.002s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the secondary_email is displayed with "success@simulator.amazonses.com" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.002s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the student_id is displayed with "sid_1234" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the user_id is displayed with "u_1234" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.005s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the birth_dt value is populated based on the random date range</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the birth_dt value is displayed in the format yyyy-mm-dd</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the b_phone is displayed with "+17031234321" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the m_phone is displayed with "+17031234321" for all the rows that are pertained to "Students".</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the gender,available_ind,assign_student_role,allow_login, and user_timezone column values are being correctly shown as per input User.txt file without anonymization</div><div class="test-status">passed</div><div class="test-duration">0.005s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the home_city is displayed with "home_city_1234" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the home_state is displayed with "home_state_1234" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the home_zip is displayed with "home_zip_1234" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the home_county is displayed with "home_county_1234" for all the rows.</div><div class="test-status">passed</div><div class="test-duration">0.004s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the max character value is correctly shown when the columns middle_name, home_city, home_state, and home_county are entered with max characters</div><div class="test-status">passed</div><div class="test-duration">0.003s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the number of records are correctly matched between the input file and output file.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify whether the Headers are correctly displayed in the output file.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify that the output file column with empty value is correctly shown based on the empty value in the input file.</div><div class="test-status">passed</div><div class="test-duration">0.002s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify that the file column with numeric value is correctly shown based on the numeric value present in the input file.</div><div class="test-status">passed</div><div class="test-duration">0.005s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the users file</div><div class="test-title">Verify that the file column with date value is correctly shown based on the date value present in the input file.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div></div></div><div id="suite-2" class="suite-container"><div class="suite-info"><div class="suite-path">/home/kaviarasu/kaviarasu/projects/hobsons/Sprint0/File-validation/sprint0-file-automation_v1/__tests__/unit/sections-file-validation_spec.js</div><div class="suite-time">0.104s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the sections file</div><div class="test-title">Verify whether the integration_id, course_section_name, course_section_id, term_id, course_integration_id, start_dt, end_dt, course_section_delivery, maximum_enrollment_count, credit_hours, and registration_call_number column values are being correctly shown as per input file without anonymization.</div><div class="test-status">passed</div><div class="test-duration">0.005s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the sections file</div><div class="test-title">Verify whether the number of records are correctly matched between the input file and output file.</div><div class="test-status">passed</div><div class="test-duration">0s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the sections file</div><div class="test-title">Verify whether the Headers are correctly displayed in the output file.</div><div class="test-status">passed</div><div class="test-duration">0s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the sections file</div><div class="test-title">Verify that the output file column with empty value is correctly shown based on the empty value in the input file.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the sections file</div><div class="test-title">Verify that the file column with date value is correctly shown based on the date value present in the input file.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div></div></div><div id="suite-3" class="suite-container"><div class="suite-info"><div class="suite-path">/home/kaviarasu/kaviarasu/projects/hobsons/Sprint0/File-validation/sprint0-file-automation_v1/__tests__/unit/relationship-file-validation_spec.js</div><div class="suite-time">0.08s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the relationship file</div><div class="test-title">Verify whether the parent_role,child_role, and term_id column values are being correctly shown as per input file without anonymization.</div><div class="test-status">passed</div><div class="test-duration">0.003s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the relationship file</div><div class="test-title">Verify whether the number of records are correctly matched between the input file and output file.</div><div class="test-status">passed</div><div class="test-duration">0s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the relationship file</div><div class="test-title">Verify whether the Headers are correctly displayed in the output file.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the relationship file</div><div class="test-title">Verify that the output file column with empty value is correctly shown based on the empty value in the input file.</div><div class="test-status">passed</div><div class="test-duration">0s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the relationship file</div><div class="test-title">Verify that the file column with numeric value is correctly shown based on the numeric value present in the input file.</div><div class="test-status">passed</div><div class="test-duration">0.002s</div></div></div></div></div><div id="suite-4" class="suite-container"><div class="suite-info"><div class="suite-path">/home/kaviarasu/kaviarasu/projects/hobsons/Sprint0/File-validation/sprint0-file-automation_v1/__tests__/unit/enrollment-file-validation_spec.js</div><div class="suite-time">0.076s</div></div><div class="suite-tests"><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the enrollment file</div><div class="test-title">Verify whether the course_section_integration_id, user_role, available_ind, credit_hours, last_access_date, and authoritative_status column values are being correctly shown as per input file without anonymization</div><div class="test-status">passed</div><div class="test-duration">0.005s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the enrollment file</div><div class="test-title">Verify whether the number of records are correctly matched between the input file and output file.</div><div class="test-status">passed</div><div class="test-duration">0s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the enrollment file</div><div class="test-title">Verify whether the Headers are correctly displayed in the output file.</div><div class="test-status">passed</div><div class="test-duration">0s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the enrollment file</div><div class="test-title">Verify that the output file column with empty value is correctly shown based on the empty value in the input file.</div><div class="test-status">passed</div><div class="test-duration">0.001s</div></div></div><div class="test-result passed"><div class="test-info"><div class="test-suitename">To assert the datas present in the enrollment file</div><div class="test-title">Verify that the file column with date value is correctly shown based on the date value present in the input file.</div><div class="test-status">passed</div><div class="test-duration">0s</div></div></div></div></div></div></body></html>

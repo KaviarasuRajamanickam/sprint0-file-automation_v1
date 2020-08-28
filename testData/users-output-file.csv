@@ -1,0 +1,13 @@
+integration_id,family_name,middle_name,given_name,email,secondary_email,student_id,user_id,gender,birth_dt,b_phone,m_phone,available_ind,assign_student_role,allow_login,home_city,home_state,home_zip,home_county,user_timezone
+i_1234_1,lname_1234,mname_1234,fname_1234,success@simulator.amazonses.com,success@simulator.amazonses.com,sid_1234,u_1234,F,1975-02-29,+17031234321,+17031234321,1,1,1,home_city_1234,home_state_1234,home_zip_1234,home_county_1234,America/New_York
+i_1234_2,lname_1234,mname_1234,fname_1234,success@simulator.amazonses.com,success@simulator.amazonses.com,sid_1234,u_1234,FEMALE,1975-02-29,+17031234321,+17031234321,0,0,0,home_city_1234,home_state_1234,home_zip_1234,home_county_1234,America/Adak
+i_1234_170,lname_1234,mname_1234,fname_1234,success@simulator.amazonses.com,success@simulator.amazonses.com,sid_1234,u_1234,M,1975-02-29,+17031234321,+17031234321,0,0,0,home_city_1234,home_state_1234,home_zip_1234,home_county_1234,America/Adak
+i_1234_171,lname_1234,mname_1234,fname_1234,,success@simulator.amazonses.com,sid_1234,u_1234,UNKNOWN,,,,1,,,,,,,
+i_1234_172,lname_1234,mname_1234,fname_1234,success@simulator.amazonses.com,success@simulator.amazonses.com,sid_1234,u_1234,Kavi_new_1,1975-02-29,+17031234321,+17031234321,0,0,0,home_city_1234,home_state_1234,home_zip_1234,home_county_1234,Kavi_new_1
+i_1234_173,lname_1234,mname_1234,fname_1234,success@simulator.amazonses.com,success@simulator.amazonses.com,sid_1234,u_1234,FEMALE,1975-02-29,,,0,,,,,,,
+i_1234_174,lname_1234,,fname_1234,success@simulator.amazonses.com,,sid_1234,u_1234,M,1975-02-29,+17031234321,+17031234321,1,0,1,home_city_1234,home_state_1234,home_zip_1234,home_county_1234,America/Adak
+i_1234_1,,,,,,,,F,1975-02-29,+17031234321,+17031234321,1,1,0,home_city_1234,home_state_1234,home_zip_1234,home_county_1234,America/Adak
+i_1234_176,lname_1234,,fname_1234,success@simulator.amazonses.com,,sid_1234,u_1234,F,1975-02-29,+17031234321,+17031234321,1,1,1,home_city_1234,home_state_1234,home_zip_1234,home_county_1234,America/Adak
+i_1234_177,lname_1234,,fname_1234,success@simulator.amazonses.com,,sid_1234,u_1234,M,1975-02-29,+17031234321,+17031234321,1,1,1,home_city_1234,home_state_1234,home_zip_1234,home_county_1234,America/Adak
+i_1234_10343,lname_1234,,fname_1234,success@simulator.amazonses.com,,sid_1234,u_1234,M,1975-02-29,+17031234321,+17031234321,1,1,1,home_city_1234,home_state_1234,home_zip_1234,home_county_1234,America/Adak
+i_1234_10344,lname_1234,mname_1234,fname_1234,success@simulator.amazonses.com,,sid_1234,u_1234,M,1975-02-29,+17031234321,+17031234321,1,1,1,home_city_1234,home_state_1234,home_zip_1234,home_county_1234,America/Adak
